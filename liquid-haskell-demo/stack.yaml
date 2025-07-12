@@ -1,0 +1,14 @@
+# ghc-9.10.1
+resolver: nightly-2025-05-05
+packages:
+  - .
+extra-deps:
+  - liquidhaskell-0.9.10.1.2
+  - liquidhaskell-boot-0.9.10.1.2
+  - liquid-fixpoint-0.9.6.3.2
+  - smtlib-backends-0.4
+  - smtlib-backends-process-0.3
+  - Diff-0.5
+
+nix:
+  packages: [cacert, git, hostname, z3]
