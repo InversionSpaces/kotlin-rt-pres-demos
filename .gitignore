@@ -68,3 +68,11 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+
+### Ada ###
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
